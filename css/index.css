@@ -1,15 +1,43 @@
 body {
   background-color: rgb(255, 255, 255);
-  font: 400 6.063em/1.38 Helvetica;
+  font: 400 1.75em/1.38 Helvetica;
   color: rgb(0, 0, 0);
 }
 
-.text {
+.container {
+  width: 250px;
+  height: 250px;
+  margin: 100px auto 0;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 300px;
+  background-color: rgba(230, 91, 91, 0);
+  overflow: hidden;
+}
+
+.image {
+  display: block;
   float: left;
-  width: 46%;
-  min-height: 211px;
-  margin: 93px 0 0 10%;
-  font-size: 1em;
-  letter-spacing: 7px;
+  width: 300px;
+  height: auto;
+  margin-left: -25px;
+  overflow: hidden;
+}
+
+.text {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
   color: rgb(0, 0, 0);
+}
+
+.text-1 {
+  margin-top: 30px;
+  font-family: Roboto;
+  font-size: 1.429em;
+  font-weight: 900;
+}
+
+.text-2 {
+  padding: 20px;
+  font-size: 1em;
 }
